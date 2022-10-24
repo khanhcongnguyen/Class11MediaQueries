@@ -1,0 +1,132 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: Begum;
+  src: url('../fonts/Begum.ttf') format('truetype');
+  font-weight: thin;
+  font-style: normal;
+}
+
+@media screen and (max-width:800px) {
+  #top{
+    font-size:70px;
+  }
+}
+
+@media screen and (min-width:600px) {
+  #top{
+    font-size:20px;
+  }
+}
+
+@media screen and (min-width:600px) and (max-width:800px) {
+  #top{
+    font-size:40px;
+  }
+}
+
+header {
+  font-family: Begum;
+  text-align:center;
+  color: PapayaWhip;
+}
+
+body {
+  background-image: url("../images/saffron.jpg");
+  background-color: #201f1d;
+  background-size: 1920px 1080px;
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+
+ul {
+  color: MidnightBlue;
+  font: 18px Georgia, serif;
+  font-weight: bold;
+}
+
+li {
+  display:inline-flex;
+  list-style-type: square;
+  background-color:PapayaWhip;
+}
+
+table {
+  color: MidnightBlue;
+  width: 800px
+   border:1px solid black;
+   border-collapse:collapse;
+}
+
+nav {
+  padding: 20px;
+}
+
+main{
+  color: MidnightBlue;
+  padding: 20px;
+  border: 1px solid MidnightBlue;
+  display:inline-grid;
+  background-color:PapayaWhip;
+}
+
+a:link {
+  color: MidnightBlue;
+  padding: 10px;
+  border: 1px solid MidnightBlue;
+}
+
+a:hover {
+  color: PapayaWhip;
+  background-color: MidnightBlue;
+  padding: 10px;
+  border: 1px solid MidnightBlue;
+}
+
+a:active {
+  color: orange;
+  background-color: MidnightBlue;
+  padding: 10px;
+  border: 1px solid MidnightBlue;
+}
+
+footer {
+  font-size: 15px;
+  color:MidnightBlue;
+  margin: 20px 0px;
+  padding: 20px;
+  display:block;
+  border: 1px dashed MidnightBlue;
+  background-color:PapayaWhip;
+  opacity: 50%;
+}
+
+.text {
+  border:1px solid black;
+  padding: 20px;
+  margin: 0px 20px;
+  background-color:white;
+}
+
+@media screen and (min-width:800px) {
+  .text {
+    padding: 5px;
+    margin: 0px 5px;
+  }
+}
+
+@media screen and (max-width:1000px) {
+  .text {
+    padding: 40px;
+    margin: 0px 40px;
+    border: 0px;
+    background-color:yellow;
+  }
+}
+
+.text2 {
+  border: 1px solid black;
+  padding: 20px;
+  margin: 0px 20px;
+  background-color:white;
+}
